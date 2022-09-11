@@ -1,0 +1,66 @@
+* , html , body {
+    padding: 0;
+    margin: 0;
+    box-sizing: none;
+}
+.navbar-brand {
+    font-size: 50px;
+    margin-right: auto;
+}
+.navbar {
+    font-family: fantasy;
+    font-size: 30px;
+}
+.navbar-nav {
+    gap: 100px;
+    margin-right: 35%;
+}
+.carousel-inner {
+    width: 100%;
+    margin:auto;
+    height: 500px;
+    margin-top: 100px;
+}
+.d-block {
+    margin: auto;
+}
+.judul-product {
+    text-align: center;
+    display:block;
+    cursor: pointer;
+    color: rgb(102, 102, 102);
+    margin-top: 100px;
+}
+.judul-product h1{
+    font-size: 70px;
+}
+.daftar-product {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    padding: 100px;
+}
+.card {
+    margin: 70px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+}
+.card-body .btn {
+    margin-top: 30px;
+} 
+.pagination{
+    justify-content: center;
+    margin: 100px;
+}
+.pagination li a{
+    color: rgb(102, 102, 102);
+}
+.card-footer {
+    width: 100%;
+    height :auto;
+}
+.card-text {
+    letter-spacing: 3px;
+}
